@@ -66,7 +66,7 @@ def path_printer(root):
     path_printer(root.parent)
     if root.move:
         print(f"Move: {root.move}")
-        print(f"F(X) = {root.lvl} + {root.cost} = {root.lvl + root.cost}")
+        print(f"F(X) = {root.lvl} + {root.cost}")
         matrix_printer(root.mat)
 
 def get_matrix_input(matrix_name):
